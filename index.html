@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG1 Consulting | Built For Muse Design</title>
+<meta name="description" content="A founding-cohort front-door page, a lead magnet funnel, and the build that turns Muse Design's 15+ years and 47K audience into a second revenue line that teaches.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Built for Muse Design, by AG1 Consulting">
+<meta property="og:description" content="The Muse Method cohort front door, the Dubai Luxury Project Playbook funnel, and the nurture that turns Muse Design's audience into founding members.">
+<meta property="og:url" content="https://andrei170.github.io/muse-design-hub/">
+<meta property="og:image" content="https://andrei170.github.io/muse-design-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Built for Muse Design, by AG1 Consulting">
+<meta name="twitter:description" content="The Muse Method cohort front door and lead funnel, built for Muse Design.">
+<meta name="twitter:image" content="https://andrei170.github.io/muse-design-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;&#x1F3DB;&lt;/text&gt;&lt;/svg&gt;">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #000000; --surface: #0A0A0F;
+    --gold-1: #D4A84B; --gold-2: #B8922E; --gold-flat: #C9973A;
+    --white: #FFFFFF; --muted: #9A9AA5; --border: rgba(255,255,255,0.10);
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter','Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background: var(--black); color: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  .gold-text { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(0,0,0,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; max-width: 1080px; margin: 0 auto; }
+  .wordmark { font-weight: 800; font-size: 1.3rem; letter-spacing: 0.5px; }
+  .wordmark .ag { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wordmark .co { color: var(--white); font-weight: 800; }
+  .nav-cta { font-size: 0.82rem; font-weight: 700; text-decoration: none; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 9px 18px; border-radius: 40px; white-space: nowrap; }
+  header.hero { padding: 90px 0 70px; text-align: center; position: relative; background: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.10), transparent 55%); }
+  .badge { display: inline-block; font-size: 0.74rem; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: var(--gold-flat); border: 1px solid rgba(201,151,58,0.4); border-radius: 40px; padding: 8px 18px; margin-bottom: 30px; }
+  .brand-row { display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 26px; }
+  .brand-block { font-weight: 800; font-size: 1.8rem; letter-spacing: 0.5px; }
+  .brand-x { color: var(--muted); font-size: 1.4rem; font-weight: 400; }
+  header.hero h1 { font-size: clamp(1.9rem, 5vw, 3rem); font-weight: 800; line-height: 1.12; margin-bottom: 20px; }
+  header.hero p.sub { color: var(--muted); font-size: 1.1rem; max-width: 640px; margin: 0 auto; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 34px 18px; margin: 50px 0; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+  .stat { text-align: center; }
+  .stat .num { font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 800; line-height: 1; }
+  .stat .label { font-size: 0.82rem; color: var(--muted); margin-top: 10px; letter-spacing: 0.4px; }
+  .sec-head { text-align: center; margin: 70px 0 36px; }
+  .sec-head .eyebrow { font-size: 0.74rem; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: var(--gold-flat); }
+  .sec-head h2 { font-size: clamp(1.5rem, 4vw, 2.1rem); font-weight: 800; margin-top: 12px; }
+  .acc { display: flex; flex-direction: column; gap: 16px; }
+  .card { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.45); }
+  .acc-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; cursor: pointer; user-select: none; }
+  .acc-head .left { display: flex; align-items: center; gap: 16px; }
+  .acc-num { flex-shrink: 0; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.95rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); }
+  .acc-head h3 { font-size: 1.08rem; font-weight: 800; }
+  .acc-icon { flex-shrink: 0; color: var(--gold-flat); font-size: 1.5rem; transition: transform 0.35s ease; line-height: 1; }
+  .card.open .acc-icon { transform: rotate(45deg); }
+  .acc-body { max-height: 0; overflow: hidden; transition: max-height 0.45s ease; }
+  .acc-inner { padding: 0 24px 26px; color: #D7D7DE; }
+  .acc-inner p { margin-bottom: 14px; }
+  .acc-inner p:last-child { margin-bottom: 0; }
+  .acc-inner strong { color: var(--white); }
+  .acc-inner .gold-label { color: var(--gold-flat); font-weight: 700; }
+  .item { border-left: 2px solid rgba(201,151,58,0.45); padding: 4px 0 4px 16px; margin-bottom: 18px; }
+  .item:last-child { margin-bottom: 0; }
+  .item .name { font-weight: 800; color: var(--white); display: block; margin-bottom: 4px; }
+  .item .hl { color: #C7C7D0; font-style: italic; }
+  .stack-list { list-style: none; }
+  .stack-list li { padding: 7px 0 7px 26px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .stack-list li:last-child { border-bottom: none; }
+  .stack-list li::before { content: "+"; position: absolute; left: 0; color: var(--gold-flat); font-weight: 800; }
+  .btn-link { display: inline-block; margin-top: 16px; text-decoration: none; font-weight: 700; font-size: 0.92rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 13px 26px; border-radius: 40px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .btn-link:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(201,151,58,0.3); }
+  .model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .model{background:rgba(10,10,15,0.7);border:1px solid var(--border);border-radius:14px;padding:24px 22px;}
+  .model .ic{color:var(--gold-flat);font-weight:800;font-size:0.74rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;display:block;}
+  .model h4{font-size:1rem;font-weight:800;margin-bottom:8px;color:var(--white);}
+  .model p{color:var(--muted);font-size:0.92rem;margin:0;}
+  .scarcity{text-align:center;color:var(--gold-flat);font-weight:700;font-size:0.95rem;margin:28px auto 0;max-width:620px;}
+  .hub-faq{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+  .hub-faq .qa{background:rgba(10,10,15,0.6);border:1px solid var(--border);border-radius:12px;padding:20px 22px;}
+  .hub-faq .qa h4{font-size:1rem;font-weight:800;color:var(--white);margin-bottom:6px;}
+  .hub-faq .qa p{color:var(--muted);font-size:0.93rem;margin:0;}
+  .sticky-cta{display:none;}
+  .process-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .proc { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; padding: 26px 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+  .proc .step { font-size: 0.78rem; font-weight: 800; letter-spacing: 1px; color: var(--gold-flat); margin-bottom: 12px; }
+  .proc h4 { font-size: 1.05rem; font-weight: 800; margin-bottom: 8px; }
+  .proc p { color: var(--muted); font-size: 0.95rem; }
+  .cta-box { text-align: center; margin: 80px 0 60px; padding: 60px 30px; background: var(--surface); border: 1px solid rgba(201,151,58,0.25); border-radius: 22px; background-image: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.12), transparent 60%); box-shadow: 0 24px 70px rgba(0,0,0,0.55); }
+  .cta-box h2 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); font-weight: 800; margin-bottom: 16px; }
+  .cta-box p { color: var(--muted); max-width: 560px; margin: 0 auto 30px; font-size: 1.08rem; }
+  .cta-box .btn-link { font-size: 1.05rem; padding: 16px 38px; margin-top: 0; }
+  footer { text-align: center; padding: 40px 0 60px; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+  footer .wordmark { font-size: 1.05rem; margin-bottom: 8px; }
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  @media (max-width:720px){
+    .model-grid{grid-template-columns:1fr;}
+    body{padding-bottom:74px;}
+    .sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(0,0,0,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--border);padding:12px 16px;}
+    .sticky-cta a{display:block;width:100%;text-align:center;color:var(--black);background:linear-gradient(135deg,var(--gold-1),var(--gold-2));font-weight:700;padding:14px;border-radius:40px;text-decoration:none;font-size:0.95rem;}
+  }
+  @media (max-width: 720px) { .stats { grid-template-columns: 1fr; gap: 24px; padding: 30px 18px; } .process-grid { grid-template-columns: 1fr; } .nav-cta { display: none; } header.hero { padding: 64px 0 50px; } .brand-block { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="wordmark"><span class="ag">AG1</span> <span class="co">CONSULTING</span></div>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta">Book a Call</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge reveal">Built Exclusively For Muse Design</span>
+    <div class="brand-row reveal">
+      <div class="brand-block"><span class="gold-text">AG1</span> <span style="color:var(--white)">CONSULTING</span></div>
+      <span class="brand-x">for</span>
+      <div class="brand-block" style="color:var(--white)">MUSE DESIGN</div>
+    </div>
+    <h1 class="reveal">A Second Revenue Line That Teaches<br><span class="gold-text">Built On 15 Years Of Luxury Projects</span></h1>
+    <p class="sub reveal">A founding-cohort front door for The Muse Method, a lead-magnet funnel that finally captures your 47K audience, and a nurture that turns followers into founding members. Built specifically for your studio.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats reveal">
+    <div class="stat"><div class="num"><span data-count="6">0</span>+</div><div class="label">Hours of Research</div></div>
+    <div class="stat"><div class="num"><span data-count="5">0</span></div><div class="label">Custom Deliverables</div></div>
+    <div class="stat"><div class="num"><span data-count="2">0</span></div><div class="label">Live Pages</div></div>
+  </div>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">The Work</div>
+    <h2>Everything We Built For You</h2>
+  </div>
+
+  <div class="acc">
+
+    <!-- 1 RESEARCH -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">1</div><h3>Research Snapshot</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>You have built one of the most-followed luxury design studios in Dubai: a licensed firm in Dubai Design District, 15+ years, 500+ projects, an Interior of the Year badge, and a 47K Instagram audience in the design niche. Every dirham of that comes from one place: done-for-you projects, capped by your team and by your own "craft, not scale" standard.</p>
+        <p><span class="gold-label">The wedge:</span> the designers who want to build what you built are already following you, and you have no way to teach them or capture them. No course, no cohort, no lead magnet, no email list, no funnel. Your authority has no front door.</p>
+        <p><span class="gold-label">The opportunity:</span> a second revenue line that is high-margin and scales without growing the team or diluting a single project. We package the system you already run into a cohort, The Muse Method, and build the funnel that feeds it.</p>
+        <p><span class="gold-label">One honest note:</span> the build uses your website's own number, 500+ projects over 15+ years, rather than the larger figure that floats around in search results. If your real number is higher, even better. We will use whatever you can stand behind, and we never put a claim on a page that you cannot back.</p>
+      </div></div>
+    </div>
+
+    <!-- 2 THE OFFER -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">2</div><h3>The Offer: The Muse Method, Productized</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>One method, four pillars, taught for the first time. We did not invent anything. We named the operating system you have run for 15+ years so it can earn on its own.</p>
+        <p><span class="gold-label">The promise:</span> build a profitable luxury design business, not just a beautiful one.</p>
+        <p><span class="gold-label">The four pillars:</span></p>
+        <div class="item"><span class="name">Win</span><span class="hl">Position, price, and close high-value luxury projects so they are profitable before a wall moves.</span></div>
+        <div class="item"><span class="name">Design</span><span class="hl">The 3D and space-planning pipeline that sells the vision before the client commits.</span></div>
+        <div class="item"><span class="name">Deliver</span><span class="hl">The turnkey system, DEWA and DDA approvals, vendor and team management that protect the margin.</span></div>
+        <div class="item"><span class="name">Grow</span><span class="hl">The client-acquisition funnel that turns an audience into a booked pipeline.</span></div>
+        <p style="margin-top:14px;"><span class="gold-label">The ladder:</span> a free Playbook lead magnet at the top, The Muse Method founding cohort in the middle, and Private Studio Mentorship for studios that want to move one to one.</p>
+      </div></div>
+    </div>
+
+    <!-- 3 FUNNEL -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">3</div><h3>The Lead Funnel + Nurture (5 emails)</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>The piece you do not have today. A free lead magnet, the <strong>Dubai Luxury Project Playbook</strong>, captures the designers hiding in your 47K following and segments them from your done-for-you clients. Then a five-email nurture, written in your voice, warms them toward the founding-cohort waitlist.</p>
+        <div class="item"><span class="name">1. The Playbook is inside</span><span class="hl">Deliver the guide. Two reframes: the money is made at scoping, the margin leaks at approvals and vendors.</span></div>
+        <div class="item"><span class="name">2. Beautiful work, thin profit</span><span class="hl">The business behind the work is the real problem. You solved it over 15 years.</span></div>
+        <div class="item"><span class="name">3. The Dubai operating model</span><span class="hl">DEWA, DDA, turnkey delivery. The Gulf-specific knowledge no generic course teaches.</span></div>
+        <div class="item"><span class="name">4. Introducing The Muse Method</span><span class="hl">The four pillars and the founding cohort. Join the waitlist.</span></div>
+        <div class="item"><span class="name">5. Craft does not have to mean capped</span><span class="hl">Your own belief, reframed. Last call into the waitlist.</span></div>
+      </div></div>
+    </div>
+
+    <!-- 4 ANGLES -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">4</div><h3>Campaign Angles (5)</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <div class="item"><span class="name">1. Teach The Method, Not The Project</span><span class="hl">"Fifteen years built the studio. It is time the method earned on its own."</span></div>
+        <div class="item"><span class="name">2. The Studio Behind The Studios</span><span class="hl">"The designers who want what you built are already following you."</span></div>
+        <div class="item"><span class="name">3. From Referrals To A Real Pipeline</span><span class="hl">"Stop waiting on referrals. Build the funnel we teach inside the method."</span></div>
+        <div class="item"><span class="name">4. The Dubai Operating Model</span><span class="hl">"DEWA, DDA, turnkey delivery. The knowledge no design course covers."</span></div>
+        <div class="item"><span class="name">5. Craft Does Not Have To Mean Capped</span><span class="hl">"Craft, not scale built the brand. A cohort lets the craft scale anyway."</span></div>
+      </div></div>
+    </div>
+
+    <!-- 5 LANDING -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">5</div><h3>Landing Page Preview</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>A full <strong>Muse Method</strong> founding-cohort front-door page in a warm, editorial luxury brand. It opens on the "it is not the design work, it is the business behind it" reframe, walks through the four pillars and the three-rung ladder, and drives every CTA to a waitlist capture with the Playbook as the hook. Compliance disclaimer and results-vary line baked in.</p>
+        <p>It is live and ready to view right now.</p>
+        <a href="https://andrei170.github.io/muse-design-landing/" class="btn-link" target="_blank" rel="noopener">View the live landing page</a>
+      </div></div>
+    </div>
+
+    <!-- 6 NOTES -->
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">6</div><h3>Build Notes</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>A few choices made so this lands clean and stays true to your studio:</p>
+        <ul class="stack-list">
+          <li>Built on your website's own figure, 500+ projects over 15+ years, not an unverified larger number</li>
+          <li>No fabricated testimonials. We use your real credentials: licensed UAE studio, Interior of the Year, 5.0 rated</li>
+          <li>The cohort targets designers who want their own studios, so it monetizes your authority without giving away your client base</li>
+          <li>Cohort pricing stays off the public page and is confirmed with applicants directly</li>
+          <li>The funnel segments designers from your done-for-you clients, so the two audiences never collide</li>
+          <li>Visual direction is a luxury starting point. Your exact brand fonts and colors get matched from your live site before launch</li>
+        </ul>
+      </div></div>
+    </div>
+
+  </div>
+
+  <!-- PROCESS -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We Work</div>
+    <h2>Done For You. One Operator.</h2>
+  </div>
+
+  <div class="process-grid">
+    <div class="proc reveal"><div class="step">STEP 01</div><h4>Package The Method</h4><p>We name the four pillars, structure the founding cohort, and write the Playbook lead magnet from the system you already run.</p></div>
+    <div class="proc reveal"><div class="step">STEP 02</div><h4>Build The Funnel</h4><p>The Muse Method landing page, the Playbook opt-in, the waitlist capture, and the five-email nurture, in your brand.</p></div>
+    <div class="proc reveal"><div class="step">STEP 03</div><h4>Wire It To Your Audience</h4><p>Connect the funnel to your Instagram, your site, and your email tool, so your 47K following finally has a front door.</p></div>
+    <div class="proc reveal"><div class="step">STEP 04</div><h4>You Teach, The Machine Runs</h4><p>You run the cohort and the studio. The funnel keeps filling the founding-member waitlist on its own.</p></div>
+  </div>
+
+  <!-- HOW WE'D WORK -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We'd Work</div>
+    <h2>Simple Terms. Skin In The Game.</h2>
+  </div>
+  <div class="model-grid">
+    <div class="model reveal"><span class="ic">The model</span><h4>A setup fee, then revenue share</h4><p>A one-time build fee to stand the cohort funnel up, then a share of the new revenue it generates. I only win when you win.</p></div>
+    <div class="model reveal"><span class="ic">One operator</span><h4>You deal with me, not a team</h4><p>I build and run the machine myself with AI leverage. One point of contact, fast turnaround, nothing lost in handoffs.</p></div>
+    <div class="model reveal"><span class="ic">Proven</span><h4>Over $1M generated, solo</h4><p>I built a full monetization system from zero for a creator with a six-figure audience: offer, funnel, email, and community, in weeks.</p></div>
+  </div>
+  <p class="scarcity reveal">I only take on a handful of clients at a time, so I can stay hands-on with every build.</p>
+
+  <!-- HUB FAQ -->
+  <div class="sec-head reveal">
+    <div class="eyebrow">Straight Answers</div>
+    <h2>What You're Probably Wondering</h2>
+  </div>
+  <div class="hub-faq">
+    <div class="qa reveal"><h4>How much does this cost?</h4><p>A setup fee plus revenue share, scoped to what we build. We talk real numbers on the call, once I understand your studio. No retainer, no surprises.</p></div>
+    <div class="qa reveal"><h4>How fast can you build it?</h4><p>Fast. This hub and the landing were built before we ever spoke. The full cohort funnel and the nurture are usually live in a few weeks.</p></div>
+    <div class="qa reveal"><h4>Will teaching create competitors?</h4><p>The cohort sells to designers building their own studios, often outside your luxury-villa lane and price band. It monetizes your authority. It does not hand over your client base.</p></div>
+    <div class="qa reveal"><h4>Why revenue share?</h4><p>Because it aligns us. I do not earn the upside unless the funnel actually fills your founding cohort. My incentive is your result.</p></div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-box reveal">
+    <h2>Ready to build this for real?</h2>
+    <p>Everything above was built specifically for you. Imagine The Muse Method funnel wired into your Instagram, your site, and your 47K audience.</p>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="btn-link" target="_blank" rel="noopener">Book a call with Andrei</a>
+    <p style="color:var(--muted);font-size:0.92rem;margin:14px auto 0;text-align:center;">Not ready for a call? Just reply and tell me what you think.</p>
+    <p style="color:var(--gold-flat);font-weight:700;font-size:0.9rem;margin:14px auto 0;text-align:center;letter-spacing:.02em;">Over $1M in client revenue generated. One operator.</p>
+  </div>
+
+</div>
+
+<div class="sticky-cta"><a href="https://calendly.com/ag-copy/call-with-andrei">Book a call with Andrei</a></div>
+
+<footer>
+  <div class="wordmark"><span class="ag gold-text">AG1</span> <span class="co">CONSULTING</span></div>
+  <div>High-ticket offers and marketing systems, done for you.</div>
+  <div style="margin-top:14px;"><a href="https://andrei170.github.io/ag1/" target="_blank" rel="noopener" style="color:var(--gold-flat);text-decoration:none;font-weight:600;font-size:0.9rem;letter-spacing:.02em;">andrei170.github.io/ag1</a></div>
+</footer>
+
+<script>
+  document.querySelectorAll('.acc-head').forEach(function(h){
+    h.addEventListener('click', function(){
+      var card = h.parentElement;
+      var body = card.querySelector('.acc-body');
+      var isOpen = card.classList.contains('open');
+      if (isOpen) { body.style.maxHeight = null; card.classList.remove('open'); }
+      else { card.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  function runCount(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var start = null, dur = 1100;
+    function step(ts){ if (!start) start = ts; var p = Math.min((ts - start) / dur, 1); el.textContent = Math.floor(p * target); if (p < 1) requestAnimationFrame(step); else el.textContent = target; }
+    requestAnimationFrame(step);
+  }
+  var countObserved = false;
+  var statObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting && !countObserved){ countObserved = true; document.querySelectorAll('[data-count]').forEach(runCount); } });
+  }, { threshold: 0.4 });
+  var statsEl = document.querySelector('.stats');
+  if (statsEl) statObserver.observe(statsEl);
+</script>
+</body>
+</html>
